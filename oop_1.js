@@ -2,6 +2,13 @@ const global = {
   color: "transparent"
 }
 
+// Traditional function
+function VehicleFunction(weight, price) {
+  this.weight = weight // kg
+  this.price = price // USD
+}
+
+// Class function
 class Vehicle {
   constructor(weight, price, color) {
     this.weight = weight // kg
