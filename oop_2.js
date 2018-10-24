@@ -40,5 +40,7 @@ const somethingToRide = new Vehicle(7, 120)
 const somethingOnLand = new LandVehicle(7, 120, 2)
 const somethingOnWater = new WaterVehicle(20, 200, 10)
 
-console.log((somethingOnWater.weight = 200))
-console.log(somethingOnWater.thisWeight)
+// console.log((somethingOnWater.weight = 200))
+// console.log(somethingOnWater.thisWeight)
+
+console.log(Vehicle())
