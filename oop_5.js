@@ -3,6 +3,10 @@ class Card {
     this.name = name
     this.order = order
   }
+
+  getFullName() {
+    return `${this.name} (${this.order})`
+  }
 }
 
 const DATA_COLLECTION = [
@@ -31,3 +35,7 @@ const cards = DATA_COLLECTION.map((item, index) => {
 })
 
 console.log(cards)
+
+cards.forEach(item => {
+  console.log(item.getFullName())
+})
